@@ -1,6 +1,7 @@
 <template>
     <div>
         <section id="contact" class="container-fluid text-center">
+        <h2 class="display-4 text-light mt-0 rounded-3 barney kage animate-charcter fw-bolder" data-aos="zoom-in">Contact</h2>
         <div class="container">
             <form action="https://formspree.io/f/mwkzbykn" method="POST">
                 <div >
@@ -52,5 +53,7 @@ export default {
 };
 </script>
 <style>
-    
+#contact{
+    margin-top: 9rem;
+}   
 </style>

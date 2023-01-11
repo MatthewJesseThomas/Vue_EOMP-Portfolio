@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <section class="container-fluid bg-secondary">
+    <section class="container-fluid sect">
       <div class="wrapper text-center">
           <div class="rounded-3 animated-charcter" data-aos="fade-down">
               <h2 class="text-white kage display-6 fw-bolder">Portfolio Of</h2>
@@ -38,3 +38,8 @@ export default {
 
 }
 </script>
+<style>
+.home{
+    margin-top: 9rem;
+    }
+</style>
